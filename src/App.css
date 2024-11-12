@@ -1,0 +1,71 @@
+/* Umumiy tanishish */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Engil kulrang fon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Formani o'rtaga joylash */
+form {
+  background-color: #ffffff; /* Oq fon */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Yumshoq soya */
+  width: 300px;
+}
+
+/* Kirish maydonlarining umumiy ko'rinishi */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; /* Engil kulrang chegara */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Yengil kulrang fon */
+  font-size: 14px;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+textarea:focus {
+  border-color: #9b9b9b; /* Fokusda yanada o'zgaradigan chegara rangi */
+  outline: none;
+}
+
+/* Tugmani bezash */
+button {
+  background-color: #6c757d; /* Kulrang tugma rangi */
+  color: #ffffff; /* Oq matn */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #5a6268; /* Hover holatida kulrangni biroz qoraytirish */
+}
+
+/* Formani sarlavhasi */
+h2 {
+  color: #333; /* Qora rangdagi sarlavha */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Xato xabarlari */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
